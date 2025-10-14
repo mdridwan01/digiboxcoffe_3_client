@@ -1,0 +1,6 @@
+{
+    "/api": {
+        target: "https://digiboxcafe-2-server.onrender.com",
+    }
+}
+
