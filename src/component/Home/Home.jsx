@@ -16,7 +16,7 @@ export default function Home() {
     }, 1000);
 
     const fetchUiToken = async () => {
-      const response = await fetch("https://digiboxcafe-2-server.onrender.com/api/vending/68e4d654c420911efee3b836");
+      const response = await fetch("https://digicafe-service.digibox.com.bd/api/vending/68ef47274f42f940e5154411");
       const data = await response.json();
       setUiToken(data.uiToken);  // Set uiToken value from API response
     };

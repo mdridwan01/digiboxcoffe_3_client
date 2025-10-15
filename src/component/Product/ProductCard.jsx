@@ -3,7 +3,7 @@ import SingleCard from './SingleCard';
 import BuyModal from './BuyModal';
 import { Box } from '@mui/material';
 import { ToastContainer } from 'react-toastify';
- const API_URL = "https://digiboxcafe-2-server.onrender.com";
+ const API_URL = "https://digicafe-service.digibox.com.bd";
 
 export default function ProductCard() {
      const [products, setProducts] = useState([]);

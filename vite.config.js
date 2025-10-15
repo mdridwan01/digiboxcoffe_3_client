@@ -10,7 +10,7 @@ export default defineConfig({
        host: '0.0.0.0', // 👈 critical: allow LAN access
     port: 5173,
     proxy: {
-      '/api': 'https://digiboxcafe-2-server.onrender.com',
+      '/api': 'https://digicafe.digibox.com.bd',
     },
     
   },
